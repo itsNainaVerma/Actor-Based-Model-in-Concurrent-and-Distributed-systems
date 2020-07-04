@@ -8,10 +8,17 @@ In this project, I have created an actor that responds to the request by creatin
 
 #### The actor does the following things:
 a)	Changes the internal state.
+
 b)	Create other actors.
+
 c)	Communicate with other actors using the addresses of other targeted actors by described protocols.
-d)	The life cycle of Actor in existing system:
+
+d)	The life cycle of Actor in existing system.
+
 e)	Actor is created by using the function createActor(), address is assigned by the actorSystem.
+
 f)	The actor is called by using function ask().
+
 g)	Actorsystem.ask() calls another actor.
+
 h)	Actor passes the message to the other targeted actor using function tell.
